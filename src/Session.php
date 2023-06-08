@@ -28,7 +28,7 @@ class Session
 	}
 
 
-	public function findObjects(array $template)
+	public function findObjects(array $template): array
 	{
 	}
 
@@ -73,7 +73,7 @@ class Session
 	}
 
 
-	public function generateRandom(int $length)
+	public function generateRandom(int $length): string
 	{
 	}
 
@@ -83,7 +83,7 @@ class Session
 	}
 
 
-	public function __debugInfo()
+	public function __debugInfo(): array
 	{
 	}
 }

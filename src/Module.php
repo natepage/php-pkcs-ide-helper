@@ -13,32 +13,32 @@ class Module
 	}
 
 
-	public function getSlots()
+	public function getSlots(): array
 	{
 	}
 
 
-	public function getSlotList()
+	public function getSlotList(): array
 	{
 	}
 
 
-	public function getSlotInfo(int $slotId)
+	public function getSlotInfo(int $slotId): array
 	{
 	}
 
 
-	public function getTokenInfo(int $slotId)
+	public function getTokenInfo(int $slotId): array
 	{
 	}
 
 
-	public function getMechanismList(int $slotId)
+	public function getMechanismList(int $slotId): array
 	{
 	}
 
 
-	public function getMechanismInfo(int $slotId, int $mechanismId)
+	public function getMechanismInfo(int $slotId, int $mechanismId): array
 	{
 	}
 
@@ -68,7 +68,7 @@ class Module
 	}
 
 
-	public function C_GetSlotList(bool $tokenPresent, ?array $pSlotList = null)
+	public function C_GetSlotList(bool $tokenPresent, ?array $pSlotList = null): array
 	{
 	}
 
@@ -83,7 +83,7 @@ class Module
 	}
 
 
-	public function C_GetMechanismList(int $slotId, ?array $pMechanismList = null)
+	public function C_GetMechanismList(int $slotId, ?array $pMechanismList = null): array
 	{
 	}
 
