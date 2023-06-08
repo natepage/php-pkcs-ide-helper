@@ -48,7 +48,12 @@ class Module
 	}
 
 
-	public function openSession(int $slotid, int $flags, ?string $application = null, ?callable $notify = null)
+	public function openSession(
+		int $slotid,
+		int $flags,
+		?string $application = null,
+		?callable $notify = null,
+	): \Pkcs11\Session
 	{
 	}
 
@@ -109,7 +114,8 @@ class Module
 		?string $pApplication = null,
 		?callable $notify = null,
 		?Pkcs11\Session $hSession = null,
-	) {
+	): \Pkcs11\Session
+	{
 	}
 
 
