@@ -1,1 +1,5 @@
+# PhpStorm project files
 .idea/
+
+# Composer dependencies
+vendor/
