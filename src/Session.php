@@ -1,89 +1,74 @@
 <?php
+
 namespace Pkcs11;
 
 class Session
 {
-	public function login(int $loginType, string $pin)
-	{
-	}
+    public function __debugInfo(): array
+    {
+    }
 
+    public function copyObject(P11Object $object, array $template)
+    {
+    }
 
-	public function getInfo()
-	{
-	}
+    public function createObject(array $template)
+    {
+    }
 
+    public function destroyObject(P11Object $object)
+    {
+    }
 
-	public function logout()
-	{
-	}
+    public function digest(Mechanism $mechanism, string $data)
+    {
+    }
 
+    public function findObjects(array $template): array
+    {
+    }
 
-	public function initPin(string $pin)
-	{
-	}
+    public function generateKey(Mechanism $mechanism, array $template)
+    {
+    }
 
+    public function generateKeyPair(Mechanism $mechanism, array $pkTemplate, array $skTemplate)
+    {
+    }
 
-	public function setPin(string $oldPin, string $newPin)
-	{
-	}
+    public function generateRandom(int $length): string
+    {
+    }
 
+    public function getInfo()
+    {
+    }
 
-	public function findObjects(array $template): array
-	{
-	}
+    public function initPin(string $pin)
+    {
+    }
 
+    public function initializeDigest(Mechanism $mechanism)
+    {
+    }
 
-	public function createObject(array $template)
-	{
-	}
+    public function login(int $loginType, string $pin)
+    {
+    }
 
+    public function logout()
+    {
+    }
 
-	public function copyObject(Pkcs11\P11Object $object, array $template)
-	{
-	}
+    public function openUri(string $uri)
+    {
+    }
 
+    public function seedRandom(string $seed)
+    {
+    }
 
-	public function destroyObject(Pkcs11\P11Object $object)
-	{
-	}
-
-
-	public function digest(Pkcs11\Mechanism $mechanism, string $data)
-	{
-	}
-
-
-	public function initializeDigest(Pkcs11\Mechanism $mechanism)
-	{
-	}
-
-
-	public function generateKey(Pkcs11\Mechanism $mechanism, array $template)
-	{
-	}
-
-
-	public function generateKeyPair(Pkcs11\Mechanism $mechanism, array $pkTemplate, array $skTemplate)
-	{
-	}
-
-
-	public function seedRandom(string $seed)
-	{
-	}
-
-
-	public function generateRandom(int $length): string
-	{
-	}
-
-
-	public function openUri(string $uri)
-	{
-	}
-
-
-	public function __debugInfo(): array
-	{
-	}
+    public function setPin(string $oldPin, string $newPin)
+    {
+    }
 }
