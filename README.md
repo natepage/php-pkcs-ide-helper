@@ -4,9 +4,9 @@
 ![Packagist Version](https://img.shields.io/packagist/v/natepage/php-pkcs11-ide-helper)
 ![GitHub](https://img.shields.io/github/license/natepage/php-pkcs11-ide-helper)
 
-PHP PKCS11 IDE Helper is a project that aims to provide assistance with PHPStorm (or any other IDE that supports PHPDoc)
-when working with the PHP PKCS11 extension. It brings autocompletion, inline documentation and other IDE helper features
-to make your experience using PHP with PKCS11 seamless.
+PHP PKCS11 IDE Helper is a project that aims to provide assistance with PHPStorm (or any other IDE) when working with
+the PHP PKCS11 extension. It brings autocompletion, inline documentation and other IDE helper features to make your
+experience using PHP with PKCS11 seamless.
 
 ## Table of Contents
 
@@ -40,9 +40,6 @@ There's nothing more you need to do!
 
 If you find a bug or want to contribute to the code or documentation, you can fork the repository and send a pull
 request.
-
-Before contributing, please make sure you have the latest version of PHP and Composer installed and that you are
-checking your code with PHPStan and PHPCS.
 
 If you find any bug or have a question, please open an issue on the GitHub issue tracker.
 
