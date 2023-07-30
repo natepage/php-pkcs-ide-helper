@@ -1,5 +1,9 @@
 {
     "name": "natepage/php-pkcs11-ide-helper",
     "type": "library",
-    "description": "PHP IDE helper for the PKCS#11 extension"
+    "license": "MIT",
+    "description": "PHP IDE helper for the PKCS#11 extension",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    }
 }
